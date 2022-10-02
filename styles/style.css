@@ -256,19 +256,13 @@ section {
   position:relative;
 }
 
-.title-feynman {
-  width:648px;
-  margin: 0 auto 70px auto;
-  display:flex;
-  justify-content: center;
-}
-
 .title-place-feynman {
   line-height: 1.15;
   font-size:120px;
   font-weight:600;
-  margin:0;
+  margin:0 auto 70px auto;
   padding:0;
+  width:648px;
 }
 
 .subtitle-feynman {
@@ -284,18 +278,15 @@ section {
   padding:0;
 }
 
-.link {
-  display:flex;
-  position:absolute;
-  right:48px;
-}
-
 .link-place-feynman {
   color: #2f80ed;
   line-height:51px;
   font-weight:600;
   font-size:36px;
   text-decoration:none;
+  display:flex;
+  position:absolute;
+  right:48px;
 }
 
 .kaufman {
@@ -382,7 +373,6 @@ section {
   padding:60px 0 40px 0;
   min-height:350px;
   background-color: #1f1f1f;
-  border:1px solid red;
   position:relative;
 }
 
@@ -391,7 +381,6 @@ section {
   margin:auto;
   display:flex;
   position: relative;
-  border:1px solid red;
   height:100%;
 }
 
@@ -400,7 +389,6 @@ section {
   flex-direction: column;
   flex-basis: 711px;
   justify-content: space-between;
-  border:1px solid red;
 }
 
 .title-author {
@@ -457,4 +445,10 @@ section {
   line-height:30px;
   font-size:18px;
   font-weight:normal;
+}
+
+.logo-place-footer {
+  display:flex;
+  width:228px;
+  height:32px;
 }
