@@ -392,12 +392,6 @@ section {
   display:flex;
 }
 
-.logo-place-header {
-  display:flex;
-  width:228px;
-  height:32px;
-}
-
 .column_content_copyright {
   display:flex;
   flex-direction: column;
@@ -429,7 +423,6 @@ section {
   color:white;
   padding:0;
   margin:0 0 20px 0;
-  color:white;
   line-height:30px;
   font-size:18px;
   font-weight:600;
