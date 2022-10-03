@@ -36,28 +36,21 @@ section {
   height:32px;
 }
 
-.title-implementation {
-  height:100%;
-  display:flex;
-  z-index:2;
-}
-
-.title-place-header {
-  display:flex;
-  width:730px;
-  align-items:center;
-  margin-left:64px;
-}
-
-.title {
+.header__title {
   line-height:96px;
   font-size:102px;
   font-weight:600;
   margin:0;
   padding:0;
+  display:flex;
+  width:730px;
+  align-items:center;
+  margin-left:64px;
+  height:100%;
+  z-index:2;
 }
 
-.subtitle-place-header {
+.header__subtitle {
   display:flex;
   position:absolute;
   width:388px;
@@ -74,22 +67,19 @@ section {
   padding:0;
 }
 
-.link-place-subtitle {
+.header__link {
   text-decoration: none;
   color:#2f80ed;
 }
 
-.header__boy-div {
+.header__main-illustration {
+  height: 608px;
+  width: 765px;
   display:flex;
   position:absolute;
   bottom:0;
   right:0;
   z-index: 1;
-}
-
-.header__boy-pic {
-  height: 608px;
-  width: 765px;
 }
 
 .header__square-div {
@@ -373,71 +363,59 @@ section {
   padding:60px 0 40px 0;
   min-height:350px;
   background-color: #1f1f1f;
-  position:relative;
-}
-
-.columns {
-  width:90%;
-  margin:auto;
   display:flex;
-  position: relative;
-  height:100%;
+  box-sizing:border-box;
+  color:white;
 }
 
-.column_content_copyright {
+.footer__columns {
+  width:90%;
+  margin:0 auto;
+  display:flex;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
   display:flex;
   flex-direction: column;
   flex-basis: 711px;
   justify-content: space-between;
 }
 
-.title-author {
-  margin:0;
+.footer__author {
+  margin:18px 0 18px 0;
   padding:0;
-  color:white;
   line-height:25px;
   font-size:18px;
   font-weight:normal;
-  position:absolute;
-  bottom:-34px;
 }
 
-.column_content_info {
+.footer__column_content_info {
   display:flex;
   flex-direction:column;
   margin:0 auto 0 auto;
-
 }
 
-.column_content_social {
+.footer__column_content_social {
   display:flex;
   flex-direction:column;
-  position: absolute;
-  right:0;
 }
 
-.title-column-content {
-  color:white;
+.footer__title_column_content {
   padding:0;
-  margin:0 0 20px 0;
+  margin:0;
   line-height:30px;
   font-size:18px;
   font-weight:600;
 }
 
-.links-shell {
-  display:flex;
-  flex-direction: row;
-
-}
-
-.social-icon {
+.footer__social-icon{
   margin:0 10px 0 0;
   width:16px;
   height:16px;
 }
 
-.column-link {
+.footer__column-link {
   text-decoration: none;
   color:white;
   padding:0;
@@ -448,7 +426,12 @@ section {
 }
 
 .logo-place-footer {
-  display:flex;
   width:228px;
   height:32px;
+}
+
+.footer__column-links {
+  padding:0;
+  list-style-type: none;
+  margin:20px 0 16px 0;
 }
