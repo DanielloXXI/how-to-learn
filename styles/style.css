@@ -27,14 +27,17 @@ section {
   /* выше установили ограничения для секции */
 }
 
+.logo {
+  width:228px;
+  height:32px;
+}
+
 .logo_place_header {
   display:flex;
   position:absolute;
   top:30px;
   left:64px;
   z-index:2;
-  width:228px;
-  height:32px;
 }
 
 .header__title {
@@ -354,11 +357,6 @@ section {
   line-height:30px;
   font-size:18px;
   font-weight:normal;
-}
-
-.logo_place_footer {
-  width:228px;
-  height:32px;
 }
 
 .footer__column-links {
