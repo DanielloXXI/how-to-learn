@@ -1,8 +1,18 @@
-# Hi there, I'm Daniil, its my project!
-## Здесь использовались технологии:
+<h1 align="center">Project "How to learn"</h1>
 
-* flex;
-* animation;
-* видео, картинки и многое другое.
+<img src="./images/ReadMe/main.jpg" width="100%">
 
-### Осталось доработать баги с помощью моего любимого ревьювера, и мой первый полноценны сайт уже готов!
+<h2 align="center"><a  href="https://danielloxxi.github.io/how-to-learn/">Test site</a></h2>
+
+## Description
+
+Beginner level landing
+
+## Used technologies: 
+
+- **CSS BEM** 
+- **HTML** 
+
+## Try my other projects!
+
+<h2 align="center"><a href="https://github.com/DanielloXXI?tab=repositories"><img src="./images/ReadMe/clickme.png"></a></center></h2>
